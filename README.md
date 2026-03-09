@@ -12,6 +12,8 @@ This repository is organized as a toybox rather than a single app. Each experime
 |-- projects/                    # Self-contained toy experiments
 |   |-- algorithms/
 |   |   `-- sorting_lab/
+|   |-- ml/
+|   |   `-- noisy_sine_cnn/
 |   `-- physics/
 |       `-- harmonic_oscillator/
 |-- shared/                      # Tiny reusable Python helpers
@@ -55,6 +57,17 @@ Or:
 
 ```bash
 make oscillator
+```
+
+### ML / PyTorch example
+
+`projects/ml/noisy_sine_cnn/` generates noisy sine curves, trains a lightweight 1D CNN to denoise them, prints training progress, and saves a plot when `matplotlib` is available.
+
+Run it from the repo root with the existing micromamba environment:
+
+```bash
+XDG_CACHE_HOME=/tmp/.cache /home/sure/Downloads/bin/micromamba run -n toybox-dev \
+  python -m projects.ml.noisy_sine_cnn.run
 ```
 
 ## Conventions For New Toy Projects

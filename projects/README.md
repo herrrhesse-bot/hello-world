@@ -9,6 +9,10 @@ Use topic groupings when they help:
 - `projects/numerics/...`
 - `projects/ml/...`
 
+Current ML example:
+
+- `projects/ml/noisy_sine_cnn/` for a compact PyTorch `Conv1d` denoising experiment on synthetic sine-wave data
+
 For a new project, start with:
 
 ```text
