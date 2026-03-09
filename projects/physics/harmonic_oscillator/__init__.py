@@ -1,0 +1,1 @@
+"""Harmonic oscillator toy model."""
