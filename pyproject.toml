@@ -7,7 +7,7 @@ name = "toybox"
 version = "0.1.0"
 description = "A lightweight toybox for small computational and scientific experiments."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 authors = [
   { name = "herrrhesse-bot", email = "herrrhesse@gmail.com" }
 ]
